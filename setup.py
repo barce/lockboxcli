@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     author='Jim Barcelona',
     author_email='barce@me.com',
-    packages=['lockboxcli', 'lockbox.tests'],
+    packages=['lockboxcli', 'lockboxcli.tests'],
     install_requires=[
       'future',
     ],
