@@ -85,7 +85,8 @@ class LockboxClient:
                     key_list.append(m.group(0).replace('$','').replace('{','').replace('}',''))
                 except:
                     foo = None
-        return key_list
+        set_list = set(key_list)
+        return set_list
 
     def get_secret(self, key):
         # is it in key_list?
