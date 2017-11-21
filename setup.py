@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='lockboxcli',
-    version='0.0.2',
+    version='0.0.3',
     author='Jim Barcelona',
     author_email='barce@me.com',
     packages=['lockboxcli', 'lockboxcli.tests'],
